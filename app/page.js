@@ -258,6 +258,25 @@ export default function Home() {
           minHeight: "92vh", display: "flex", flexDirection: "column",
           justifyContent: "center", padding: "80px 0 60px", position: "relative",
         }}>
+          {/* Profile Photo */}
+          <div style={{
+            marginBottom: 32,
+            display: "flex", alignItems: "center", gap: 24,
+          }}>
+            <div style={{
+              width: 88, height: 88, borderRadius: "50%",
+              border: "2px solid rgba(0,212,255,0.4)",
+              boxShadow: "0 0 24px rgba(0,212,255,0.2), 0 0 0 6px rgba(0,212,255,0.06)",
+              overflow: "hidden", flexShrink: 0,
+              background: "rgba(21,101,255,0.1)",
+            }}>
+              <img
+                src="/lks_photo.jpg"
+                alt="Profile"
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+            </div>
+          </div>
           <p style={{
             fontFamily: "monospace", fontSize: "0.7rem",
             letterSpacing: 4, textTransform: "uppercase",
