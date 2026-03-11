@@ -276,6 +276,14 @@ export default function Home() {
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             </div>
+            <div>
+              <div style={{ fontWeight: 700, fontSize: "1.15rem", color: "#e8eef8", letterSpacing: "-0.5px" }}>
+                이강수
+              </div>
+              <div style={{ fontSize: "0.8rem", color: "#4d8bff", fontFamily: "monospace", letterSpacing: 1, marginTop: 4 }}>
+                ted kang
+              </div>
+            </div>
           </div>
           <p style={{
             fontFamily: "monospace", fontSize: "0.7rem",
